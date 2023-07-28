@@ -5,8 +5,8 @@ require File.expand_path('lib/level_travel_rails/version', __dir__)
 Gem::Specification.new do |spec|
   spec.name = 'level_travel_rails'
   spec.version = LevelTravelRails::VERSION
-  spec.authors = ['David Rybolovlev']
-  spec.email = ['golifox911@gmail.com']
+  spec.authors = ['David Rybolovlev', 'Pavel Rodionov']
+  spec.email = %w[golifox911@gmail.com pasha.rod@mail.ru]
   spec.summary = 'Level Travel wrapper gem for Ruby and Rails.'
   spec.description = 'This gem allow search tours on Level Travel and get offer.'
   spec.homepage = 'https://github.com/golifox/level-travel'
